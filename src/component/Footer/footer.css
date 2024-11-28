@@ -1,0 +1,26 @@
+.footer {
+  background-color: var(--brand-3);
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer p {
+  color: var(--brand-5);
+  font-size: 1rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  display: inline;
+  margin: 0 1rem;
+  color: var(--brand-6);
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  color: var(--orange);
+}

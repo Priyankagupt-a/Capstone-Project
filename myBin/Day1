@@ -1,0 +1,19 @@
+src/
+├── components/
+│   ├── Navbar/
+│   │   ├── Navbar.tsx
+│   │   └── navbar.css
+│   ├── Footer/
+│   │   ├── Footer.tsx
+│   │   └── footer.css
+│   ├── HomeSpecials/
+│   │   ├── HomeSpecials.tsx
+│   │   └── homeSpecials.css
+├── pages/
+│   ├── Home.tsx
+│   └── home.css
+├── hooks/
+│   └── useDropdown.tsx
+├── App.tsx
+├── index.tsx
+└── index.css

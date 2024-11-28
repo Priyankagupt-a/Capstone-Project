@@ -1,0 +1,36 @@
+.home-specials {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  padding: 1rem 2rem;
+  margin: 0 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: var(--base);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: var(--orange-2);
+  color: var(--base);
+}
+
+.tab.active {
+  background-color: var(--orange);
+  color: var(--base);
+}
+
+.tab-content {
+  padding: 2rem;
+  background-color: var(--gray-2);
+  border-radius: 8px;
+}
