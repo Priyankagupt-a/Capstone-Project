@@ -1,0 +1,58 @@
+/* variables.css */
+:root {
+    --blue: #00acc8;
+    --indigo: #702082;
+    --purple: #702082;
+    --pink: #b4005b;
+    --red: #b8222f;
+    --orange: #fd6c40;
+    --yellow: #ffd600;
+    --green: #89ab3f;
+    --teal: #20c997;
+    --cyan: #1bacc6;
+    --white: #fff;
+    --gray: #727f8a;
+    --gray-dark: #2b3032;
+    --error: #e70000;
+    --primary: #682b8c;
+    --secondary: #727f8a;
+    --success: #29bf12;
+    --info: #00acc8;
+    --warning: #fd6c40;
+    --danger: #e70000;
+    --light: #f4f4f4;
+    --dark: #2b3032;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: "museo-sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+  /* buttons.css */
+.button-primary {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: var(--info);
+}
+
+.button-danger {
+  background-color: var(--danger);
+  color: var(--white);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-danger:hover {
+  background-color: var(--red);
+}

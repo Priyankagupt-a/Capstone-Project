@@ -1,0 +1,14 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Princess House® Barbecue Disc Pair",
+        "code": "40224",
+        "offer": "Limited Time Offer!",
+        "price": 699.9,
+        "discountedPrice": 349.0,
+        "qty": 1,
+        "image": "https://via.placeholder.com/150"
+      }
+    ]
+  }

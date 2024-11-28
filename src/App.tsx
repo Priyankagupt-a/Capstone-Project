@@ -1,22 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-import Footer from './component/Footer/Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
+// import { CartProvider } from './component/context/CartContext';
 import Navbar from './component/Navbar/Navbar';
+import Footer from './component/Footer/Footer';
+// import { CartProvider } from './component/context/CartContext';
+import CartPage from './pages/CartPage';
+import { CartProvider } from './component/context/CartContext';
 
 function App() {
-  const menuItems = ['Home', 'Services', 'About', 'Contact'];
-  const footerLinks = ['Privacy', 'Terms', 'Sitemap'];
   return (
-    <div className="App">
-      <header className="App-header">
-      <Navbar/>
-        <Home />
-        <Footer  />
-      </header>
-    </div>
+    <CartProvider>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cart" element={<CartPage />} />
+      </Routes>
+      <Footer />
+    </Router>
+  </CartProvider>
   );
 }
 
